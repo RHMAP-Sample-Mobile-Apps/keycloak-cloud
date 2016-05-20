@@ -1,25 +1,21 @@
-# FeedHenry Hello World MBaaS Server
+# Keycloak Demo
 
-This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
+This API uses Keycloak for Authentication and Authorization
 
-# Group Hello World API
+# Group No Authentication Needed
 
-# hello [/hello]
+# no-authentication-needed [/keycloak-demo/no-authentication-needed]
 
-'Hello world' endpoint.
+'No Authentication' endpoint.
 
-## hello [POST] 
+## no-authentication-needed [GET]
 
-'Hello world' endpoint.
+'No Authentication' endpoint.
 
 + Request (application/json)
-    + Body
-            {
-              "hello": "world"
-            }
 
 + Response 200 (application/json)
     + Body
             {
-              "msg": "Hello world"
+              "msg": "Welcome to the unsecured part of this API!"
             }
