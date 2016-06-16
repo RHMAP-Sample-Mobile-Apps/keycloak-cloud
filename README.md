@@ -1,6 +1,13 @@
 # Keycloak Demo
+Demonstrates how Apps on RH MAP can integrate easily with Keycloak to provide
+a standardized solution for authentication and authorization.
 
 This API uses Keycloak for Authentication and Authorization
+
+#### To run this cloud app locally:
+* Use git to clone the repo locally
+* Run npm install
+* Run grunt serve
 
 # Group No Authentication Needed
 
